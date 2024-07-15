@@ -655,7 +655,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Games Section
 --------------------------------------------------------------*/
 
-#games {
+#guias {
   background: url("../imgs/BG3.jpg");
   background-size: cover;
   overflow: hidden;
@@ -665,7 +665,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
 }
 
-#games:before {
+#guias:before {
   content: "";
   background: rgba(13, 20, 41, 0.8);
   position: absolute;
@@ -675,14 +675,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   right: 0;
 }
 
-#games h2 {
+#guias h2 {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 10px;
   color: #fff;
 }
 
-#games h3 {
+#guias h3 {
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
@@ -690,7 +690,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
-#games p {
+#guias p {
   font-size: 14px;
   margin-bottom: 20px;
   color: #fff;
