@@ -652,7 +652,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*--------------------------------------------------------------
-# Games Section
+# Guias Section
 --------------------------------------------------------------*/
 
 #guias {
@@ -794,10 +794,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*--------------------------------------------------------------
-# android Section
+# Noticias Section
 --------------------------------------------------------------*/
 
-#android {
+#noticias {
   background: url("../imgs/BG2.jpg");
   background-size: cover;
   background-attachment: fixed;
@@ -808,7 +808,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
 }
 
-#android:before {
+#noticias:before {
   content: "";
   background: rgba(13, 20, 41, 0.8);
   position: absolute;
@@ -818,14 +818,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   right: 0;
 }
 
-#android h2 {
+#noticias h2 {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 10px;
   color: #fff;
 }
 
-#android h3 {
+#noticias h3 {
   font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
@@ -833,12 +833,59 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 
-#android p {
+#noticias p {
   font-size: 14px;
   margin-bottom: 20px;
   color: #fff;
 }
 
+
+
+/*--------------------------------------------------------------
+# Etica Section
+--------------------------------------------------------------*/
+
+#noticias {
+  background: url("../imgs/BG2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  padding: 60px 0 40px 0;
+  text-align: center;
+}
+
+#noticias:before {
+  content: "";
+  background: rgba(13, 20, 41, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#noticias h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+#noticias h3 {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+#noticias p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #fff;
+}
 /*--------------------------------------------------------------
 # Venue Section
 --------------------------------------------------------------*/
@@ -905,11 +952,108 @@ body.mobile-nav-active #mobile-nav-toggle {
   transform: scale(1.1);
 }
 
+
+
 /*--------------------------------------------------------------
-# Follow US Section
+# Shop Section
 --------------------------------------------------------------*/
 
-#followus {
+#shop {
+  background: url("../imgs/BG2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  padding: 60px 0 40px 0;
+  text-align: center;
+}
+
+#shop:before {
+  content: "";
+  background: rgba(13, 20, 41, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#shop h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+#shop h3 {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+#shop p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+
+/*--------------------------------------------------------------
+# Entretenimiento Section
+--------------------------------------------------------------*/
+
+#entretenimiento {
+  background: url("../imgs/BG2.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  padding: 60px 0 40px 0;
+  text-align: center;
+}
+
+#entretenimiento:before {
+  content: "";
+  background: rgba(13, 20, 41, 0.8);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#entretenimiento h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+#entretenimiento h3 {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+#entretenimiento p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+
+
+/*--------------------------------------------------------------
+# Contacto Section
+--------------------------------------------------------------*/
+
+#contacto {
   background: url("../imgs/BG4.jpeg");
   background-size: cover;
   background-attachment: fixed;
@@ -920,7 +1064,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
 }
 
-#followus:before {
+#contacto:before {
   content: "";
   background: rgba(13, 20, 41, 0.8);
   position: absolute;
@@ -930,55 +1074,55 @@ body.mobile-nav-active #mobile-nav-toggle {
   right: 0;
 }
 
-#followus .followus {
+#contacto .contacto {
   border: 1px solid #e0e5fa;
   background: #fff;
   margin-bottom: 30px;
 }
 
-#followus .followus:hover .followus-img img {
+#contacto .contacto:hover .followus-img img {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
 
-#followus .followus-img {
+#contacto .contacto-img {
   overflow: hidden;
   margin-bottom: 15px;
 }
 
-#followus .followus-img img {
+#contacto .contacto-img img {
   transition: 0.3s ease-in-out;
 }
 
-#followus h3 {
+#contacto h3 {
   font-weight: 600;
   font-size: 20px;
   margin-bottom: 5px;
   padding: 0 20px;
 }
 
-#followus h2 {
+#contacto h2 {
   color: #fff;
 }
 
-#followus a {
+#contacto a {
   color: #fff;
 }
 
-#followus a:hover {
+#contacto a:hover {
   color: #f82249;
 }
 
-#followus .stars {
+#contacto .stars {
   padding: 0 20px;
   margin-bottom: 5px;
 }
 
-#followus .stars i {
+#contacto .stars i {
   color: #ffc31d;
 }
 
-#followus p {
+#contacto p {
   padding: 0 20px;
   margin-bottom: 20px;
   color: #fff;
